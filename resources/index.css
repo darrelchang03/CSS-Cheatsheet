@@ -1,0 +1,38 @@
+
+h1 {
+    color:rgb(37, 180, 160);
+    
+}
+
+
+.table-content {
+    border-collapse: collapse;
+    border: 1px solid ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    min-width: 400px;
+}
+
+.table-content thead {
+    text-align: left;
+    background-color: rgb(37, 180, 160);
+    color: white;
+    font-weight: bold;
+}
+
+.table-content tbody tr {
+    border-bottom: 2px solid lightgrey;
+}
+
+.table-content th,
+.table-content td {
+    padding: 12px 15px;
+}
+
+.gray-shadow {
+    background-color: rgba(128, 128, 128, 0.4);
+    border-radius: 5px;
+    padding: 0 5px;
+    font-weight: 535;
+}
